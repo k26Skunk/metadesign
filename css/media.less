@@ -1,0 +1,190 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+	.top_line_nav ul li {
+		margin-right: 3px;
+		a {
+			font-size: 14px;
+		}
+	}
+
+	.top_line_contacts .tl_phone {
+		font-size: 22px;
+	}
+
+	.navbar-nav {
+		&:before {
+			top: 33%;
+		}
+
+		&:after {
+			.after;
+			top: 66%;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: #C84E00;
+			z-index: 1;
+		}
+	}
+
+	.catalog_items .catalog_item {
+		min-height: 415px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	body {
+		margin-bottom: 170px;
+	}
+
+	.top_bar_basket {
+		text-align: left;
+
+		.main_button {
+			display: block;
+			margin: 15px 0;
+		}
+	}
+
+	.header_top_line {
+		margin-top: 150px;
+	}
+
+	.top_line_nav ul li {
+		display: block;
+	}
+
+	.top_line_contacts .tl_phone {
+		margin-bottom: 10px;
+	}
+
+	.navbar-nav {
+		margin: 7.5px -10px;
+
+		li a:hover {
+			border-radius: 0px;
+		}
+		
+		&:before,
+		&:after {
+			display: none;
+		}
+	}
+
+	.nav > li > a.dropdown-toggle:focus,
+	.nav > li > a {
+		border-radius: 0;
+	}
+
+	.navbar-toggle {
+		border: 1px solid #fff;
+	}
+
+	.navbar-header p {
+		display: inline-block;
+		margin: 12px 0px 0px 15px;
+		font-size: 24px;
+		color: #fff;
+	}
+
+	.dropdown-menu {
+		min-width: 100%;
+	}
+
+	.navbar-nav .open .dropdown-menu > li > a {
+		width: 100%;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+
+	footer {
+		.footer_logo {
+			margin: 15px 0;
+			display: block;
+			text-align: center;
+		}
+
+		.footer_contacts {
+			text-align: center;
+			display: block;
+		}
+
+		.meta_link {
+			margin: 15px 0px;
+			text-align: center;
+
+			a p {
+				bottom: -15px;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.aside_links {
+		margin-top: 0px;
+	}
+
+	.catalog {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.catalog_item {
+		border: 1px solid #d3d3d3;
+		padding: 15px 0;
+		border-radius: 4px;
+	}
+
+	.detail_buy {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.modal-content {
+		padding: 0px;
+	}
+
+	.modal-footer {
+		text-align: center;
+		a {
+			float: none;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.suitable_item {
+		a {
+			font-size: 14px;
+			line-height: 18px;
+		}
+
+		.suit_descr {
+			min-height: 40px;
+		}
+
+		.suit_price {
+			font-size: 20px;
+		}
+	}
+}
+

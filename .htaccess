@@ -1,0 +1,4 @@
+AddType font/eot .eot
+AddType font/ttf .ttf
+AddType font/woff .woff
+AddType font/otf .otf
